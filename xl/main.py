@@ -1,6 +1,6 @@
 from functions import *
 
-data=get_data_from_excel('class_1.xlsx')
+data = get_data_from_excel('class_1.xlsx')
 scores = list(data.values())
 
 avg = get_average(scores)
